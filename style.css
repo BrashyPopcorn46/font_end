@@ -1,0 +1,19 @@
+
+.home-title{
+	color: red;
+    background-color: blueviolet;
+    font-size: 30px;
+}
+
+.skills-title{
+    color: rgb(25, 255, 25);
+    background-color: rgb(142, 181, 65);
+}
+.resume-title{
+    color: rgb(255, 0, 0);
+    background-color: chartreuse;
+}
+.works-title{
+    color: blue;
+    background-color: orange
+}
