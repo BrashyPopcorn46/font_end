@@ -1,4 +1,17 @@
 
+
+body{
+    font-family: 'Josefin Sans', sans-serif;;
+}
+
+
+/* container */
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
 .home-title{
 	color: red;
     background-color: blueviolet;
@@ -21,18 +34,65 @@
     color: coral;
     background-color: rgb(218, 18, 58);
 } 
-.home-menu{
+.home-menu__link{
     color: aqua;
 }        
-.skills-menu{
-    color: fuchsia;
+
+.home-menu__link:hover{
+    color: red;
+    
+}   
+
+.skills-menu__link{
+    color: rgb(0, 30, 255);
+    transform: rotate(0deg);
+    transition: 0.3s;
+    
 }
-.resume-menu{
+
+.skills-menu:hover{
+    /* color: white; */
+    transform: rotate(360deg);
+    transition: 0.3s;
+    
+}
+.resume-menu__link{
     color: maroon;
 }
-.works-menu{
+.works-menu__link{
     color: purple;
 }   
-.contacts-menu{
+.contacts-menu__link{
     color: darkred;
+}
+
+
+/* --- Header --- */
+
+
+.header{
+
+}
+
+/* Menu */
+
+.header-menu{
+    padding: 20px 0;
+    display: flex;  
+    gap: 30px;
+    list-style: none;
+}
+
+.header-menu li{
+    width: 70px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.link__active{
+    background-color: hotpink;
+    
 }
