@@ -35,24 +35,21 @@ function communicationWithUser() {
 		function funcReviewAboutJoke() {
 			let reviewAboutJoke = prompt("тебе понравилась шутка? (да или нет)");
 
-			console.log(reviewAboutJoke)
-			if (reviewAboutJoke.toLowerCase() !== 'да' || reviewAboutJoke.toLowerCase() !== 'нет') {
+	
+			if (reviewAboutJoke.toLowerCase() === 'да' || reviewAboutJoke.toLowerCase() === 'нет') {
+				if (reviewAboutJoke === 'да') {
+					alert('Мы рады')
+				} else {
+					alert('Нам жаль')
+				}
+			} else {
 				alert('надо было ответить да или нет')
 				funcReviewAboutJoke()
-			} 
+			}
 		}
 		funcReviewAboutJoke()
 
-
-
-		if (reviewAboutJoke.toLowerCase() === 'да' || reviewAboutJoke.toLowerCase() === 'нет') {
-			if (reviewAboutJoke === 'да') {
-				alert('Мы рады')
-			} else {
-				alert('Нам жаль')
-			}
-		}
-
+		
 	}
 }
 

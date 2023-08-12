@@ -12,11 +12,7 @@ body{
     width: 1000px;
 }
 
-.home-title{
-	color: red;
-    background-color: blueviolet;
-    font-size: 30px;
-}
+
 
 .skills-title{
     color: rgb(25, 255, 25);
@@ -95,4 +91,33 @@ body{
 .link__active{
     background-color: hotpink;
     
+}
+
+
+/* Home */
+
+
+.home{
+	color: red;
+    background-color: blueviolet;
+}
+
+
+.home__body{
+    display: flex;
+}
+
+.home__image{
+    width: 200px;
+    height: 200px;
+
+}
+
+.home__image img{
+    width: 100%;
+}
+
+
+.home-title{
+    font-size: 30px;
 }
