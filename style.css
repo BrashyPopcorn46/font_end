@@ -102,7 +102,6 @@ body{
     background-color: blueviolet;
 }
 
-
 .home__body{
     display: flex;
 }
@@ -115,6 +114,7 @@ body{
 
 .home__image img{
     width: 100%;
+    height: 100%;
 }
 
 
