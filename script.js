@@ -27,7 +27,7 @@ function communicationWithUser() {
 	}
 
 	if (answer) {
-		alert('молодец тебя скамнули')
+		alert('вас обманули')
 		alert('это была шутка')
 
 
