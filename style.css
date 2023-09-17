@@ -162,6 +162,7 @@ body{
 /* --- Skills --- */
 
 .skills{
+    background-color: #1f1f20;
     
 }
 
@@ -174,21 +175,29 @@ body{
 }
 
 .skills__item{
-    background-color: darkorange;
     width: 100%;
     height: 100%;
     margin-bottom: 30px;
-    display: ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #fff;
 }
 
 .skills__square{
     width: 110px;
     height: 110px;
-    background-color: darkseagreen;
+    background-color: #252527;
     display: flex;
     justify-content: center;
     align-items: center;
     transform: rotate(45deg);
+}
+
+.skills__square:hover{
+    box-shadow: 0 0 3px 3px #4f93e5;
+    transition: all .3s ease-in-out;
 }
 
 .skills__icon{
