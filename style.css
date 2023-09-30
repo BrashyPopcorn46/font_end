@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0;
     padding: 0;
@@ -21,18 +20,23 @@ body{
 
 
 
-
+.works-title{
+    padding-top: 50px;
+}
+.resume-title{
+    padding-top: 50px;
+}
 /* .resume-title{
     color: rgb(255, 0, 0);
     background-color: chartreuse;
 } */
 /* .works-title{
-    color: rgb(0, 0, 255);
+index.html    color: rgb(0, 0, 255);
     background-color: orange
 } */
 .contacts-title{
-    color: coral;
-    background-color: rgb(218, 18, 58);
+    color: white;
+     padding-top: 50px;
 } 
 .home-menu__link{
     color: aqua;
@@ -40,14 +44,12 @@ body{
 
 .home-menu__link:hover{
     color: red;
-    
 }   
 
 .skills-menu__link{
     color: rgb(0, 30, 255);
     transform: rotate(0deg);
-   transition: 0.3s;
-    
+   transition: 0.3s;   
 }
 
 .skills-menu:hover{
@@ -162,12 +164,14 @@ body{
 /* --- Skills --- */
 
 .skills{
-    background-color: #1f1f20;
-    
+    background-color: #1f1f20; 
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
 .skills__items{
+    padding-top: 50px;
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     column-gap: 20px;
@@ -182,7 +186,6 @@ body{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    border: 2px solid #fff;
 }
 
 .skills__square{
@@ -192,7 +195,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: rotate(45deg);
+    transform: rotate(45deg);    
 }
 
 .skills__square:hover{
@@ -202,11 +205,12 @@ body{
 
 .skills__icon{
     width: 50px;
-        transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
 
 .skills__subtitle{
+    margin-top: 40px;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -216,6 +220,7 @@ body{
 .skills__text {
     font-size: 15px;
     font-weight: 500;
+    text-align: center;
     color: #fff
 }
 
@@ -241,7 +246,7 @@ body{
 
 
 
-/* Resume */
+/* Resume */ 
 
 /* .resume-title{} */
 /* .resume-title__decor{} */
