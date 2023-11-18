@@ -1,5 +1,23 @@
-
+// start
 console.log("привет вячеслав")
+//
+
+// Переменные это память компьютера
+
+const myName = 'Vyacheslav'
+// Task #1
+const myAge = 12 
+
+const variableName = document.querySelector('.variable-name')
+variableName.innerHTML = myName
+
+
+
+
+
+//
+
+
 
 
 
@@ -86,3 +104,7 @@ headerMenu.addEventListener('click', function (event) {
 	}
 
 })
+
+
+
+// end

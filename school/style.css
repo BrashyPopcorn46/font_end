@@ -1,0 +1,22 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.school-wrap{
+  height: 100vh;
+  background-color: #cacaca;
+  padding: 10px;
+}
+
+.school-links{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+
+/* HISTORY */

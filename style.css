@@ -1,4 +1,6 @@
-
+.icon-title{
+    color:white
+}
 *{
     margin: 0;
     padding: 0;
@@ -242,6 +244,45 @@ index.html    color: rgb(0, 0, 255);
     background-color: #4f93e5;
     margin: 0 auto;
     margin-top: 10px;  
+}
+
+
+/* --- FOOTER --- */
+
+
+.footer{
+    padding: 40px 0;
+}
+
+.footer-title{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+
+
+.footer__links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.footer__link{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer__link:hover {
+    box-shadow: 0px 0px 10px #4f93e5;
 }
 
 
