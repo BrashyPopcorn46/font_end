@@ -16,7 +16,18 @@
   gap: 20px;
 }
 
+p{
+  margin-bottom: 15px;
+}
 
+.history-wrap{
+  background-color: #6efaff57;
+  height: 100vh;
+}
 
+.container{
+  padding: 0 10px;
+  max-width: 1000px;
+}
 
 /* HISTORY */
